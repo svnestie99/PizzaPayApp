@@ -1,0 +1,52 @@
+table {
+  width: 450px;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.top {
+  font-size: 18px;
+  font-weight: bold;
+}
+.price {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+td {
+  font-family: cursive;
+  font-size: 18px;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+button {
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: bold;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  transition: 0.9s;
+}
+
+.activeButton:hover {
+  color: #ffffff;
+  background-color: #333;
+  transition: 0.9s;
+}
+.vegan {
+  color: green;
+}
+.total {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.toCollect {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.collected {
+  font-weight: bold;
+  text-transform: uppercase;
+}

@@ -1,0 +1,43 @@
+.status {
+  font-size: 18px;
+  font-family: cursive;
+  margin-top: 40px;
+  padding: 10px 48px;
+  border: 2px solid black;
+  text-align: center;
+}
+.pizzaContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.pizza {
+  width: 350px;
+  position: relative;
+  background: url(https://puzzlepizza.by/image/catalog/slider/1eb76-big2.png)
+    center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.pizza:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.triangle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 50%;
+  transform-origin: center bottom;
+  border-bottom: 2px solid white;
+}
+.circle {
+  height: 100%;
+  width: 100%;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  transform-origin: center bottom;
+  transform: rotate(123deg);
+}
